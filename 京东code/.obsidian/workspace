@@ -1,0 +1,125 @@
+{
+  "main": {
+    "id": "3f23923a48cb536e",
+    "type": "split",
+    "children": [
+      {
+        "id": "493db3b06fa58534",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "参考文件.md",
+            "mode": "source",
+            "source": false
+          }
+        },
+        "group": "03078f5d91732f68"
+      },
+      {
+        "id": "ecd755b528852e20",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "参考文件.md"
+          }
+        },
+        "group": "03078f5d91732f68"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "591fea3d3491ee6f",
+    "type": "split",
+    "children": [
+      {
+        "id": "ce0c534f812f351b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5c3ecc242301fe27",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "95ace2e365014884",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "20306ba582a06bd9",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "681cda6d9fb6e171",
+    "type": "split",
+    "children": [
+      {
+        "id": "919f07eb0e5e1778",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c5074add8eca1cf3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "参考文件.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "51fffe47d83d31b8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "参考文件.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "493db3b06fa58534",
+  "lastOpenFiles": [
+    "参考文件.md",
+    "用户.md"
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "main": {
+    "id": "cc1d42623339104a",
+    "type": "split",
+    "children": [
+      {
+        "id": "a59702f4b3cd3d7b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4a6df7a9ce034c3e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f19a399731d02304",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "37895be4fafc514d",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "06660ee138927700",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "2e022879f52f0044",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "6a7deb7729e902ea",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
+      },
+      {
+        "id": "62f8eca29773fe4f",
+        "type": "leaf",
+        "state": {
+          "type": "recent-files",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "70abf115cc945ee6",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "2dc0a6c7b58bd5e2",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "51eb49d0174c16a6",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "e0bdcdd668a878bd",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {}
+        }
+      },
+      {
+        "id": "8eda95d663a42c6e",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
+      }
+    ]
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "big-calendar:Big Calendar": false,
+      "obsidian-excalidraw-plugin:New Excalidraw drawing": false,
+      "obsidian-to-notion:Share to notion": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-memos:Memos": false
+    }
+  },
+  "active": "37895be4fafc514d",
+  "lastOpenFiles": [
+    "04_心理历史神经科学/心智的本质.md",
+    "06_运动保养瑜伽/发型护发.md",
+    "998_新建文件/白条.canvas",
+    "Projects - Demo Project/Why You Should Be Taking More Notes.md",
+    "Projects - Demo Project/test.md",
+    "Projects - Demo Project/The Best Notes You'll Ever Make.md",
+    "06_运动保养瑜伽/美妆产品和使用.md",
+    "Day Planners/Day Planner-20230304.md",
+    "Projects - Demo Project/5 Mistakes I Made When I Started Using Obsidian.md",
+    "998_新建文件/Untitled mindmap.md",
+    "01_日记/20230302_Thu.md",
+    "Day Planners/Day Planner-20230305.md",
+    "01_日记/20230305_Sun.md",
+    "998_新建文件/Python 基础数据结构.md",
+    "01_日记/20230312_Sun.md",
+    "Pasted image 20230312201716.png",
+    "Pasted image 20230312184112.png",
+    "得到App_2023-03-10_05-29-36 1.png",
+    "得到App_2023-03-10_05-29-36.png",
+    "Untitled.canvas",
+    "999_图片/00_attachments/Pasted image 20230304145715.png",
+    "Projects - Demo Project/The Easiest Way to Start Taking Notes.md",
+    "Projects - Demo Project/What I Learned From Taking 15,000 Notes.md",
+    "02_编程相关/Git.md",
+    "Pasted image 20230312210321.png",
+    "Pasted image 20230312210304.png",
+    "Pasted image 20230312201825.png",
+    "Pasted image 20230312193218.png",
+    "Pasted image 20230312193104.png",
+    "998_新建文件/Untitled.md",
+    "模型评价.md",
+    "固收.md",
+    "大数投资.md",
+    "01_日记/20230227_Mon.md",
+    "02_编程相关/path.md",
+    "02_编程相关/名词.md",
+    "00_Templates/日记模板.md",
+    "02_编程相关/Markdown语法.md",
+    "Untitled 1.canvas"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{"type":"text","text":"品类趋势","id":"662ea88ef978f41e","x":-460,"y":130,"width":140,"height":50},
+		{"type":"text","text":"月活、交易","id":"0d597fb2704112d4","x":-458,"y":220,"width":137,"height":50},
+		{"type":"text","text":"费用把控","id":"0ed791d73e345224","x":-640,"y":192,"width":128,"height":53},
+		{"type":"text","text":"活动评价","id":"6a04e5988d476264","x":-452,"y":320,"width":125,"height":50},
+		{"type":"text","text":"- 规模\n- 资产\n- 收益率","id":"c1dc5c1a7c6b3afb","x":-657,"y":-50,"width":145,"height":140},
+		{"type":"text","text":"月活","id":"8546c6c556d64e97","x":-115,"y":65,"width":105,"height":50},
+		{"type":"text","text":"在贷用户数","id":"a4338242ef74f340","x":140,"y":65,"width":140,"height":56},
+		{"type":"text","text":"交易","id":"53a21d9ada406922","x":-106,"y":155,"width":88,"height":50},
+		{"type":"text","text":"每期资产规模","id":"8171fb4142013000","x":131,"y":152,"width":158,"height":56},
+		{"id":"09ff7a3d5293155a","x":140,"y":262,"width":140,"height":58,"type":"text","text":"资产收益率"},
+		{"id":"652516266af28d83","x":400,"y":150,"width":120,"height":60,"type":"text","text":"资金端"},
+		{"type":"text","text":"用户复盘","id":"c8bb6bfadcaff022","x":-657,"y":-140,"width":125,"height":50},
+		{"type":"text","text":"日常监控","id":"80522b62a7323116","x":-452,"y":20,"width":120,"height":50},
+		{"id":"dc9a0ae8ac1c1b30","x":-115,"y":-30,"width":96,"height":50,"type":"text","text":"交易"},
+		{"id":"f8d8e87d0330e83a","x":-125,"y":370,"width":165,"height":50,"color":"1","type":"text","text":"后分期？--资产上是如何处理的"},
+		{"id":"1f3725de2f647df7","x":85,"y":-35,"width":250,"height":60,"type":"text","text":"资产 --从账单角度可统计"},
+		{"type":"text","text":"分期占比","id":"0f9b1af18f040381","x":-125,"y":262,"width":140,"height":56},
+		{"id":"b78b3c1a470e0b95","x":-659,"y":424,"width":479,"height":116,"type":"text","text":"更轻量实用的产品 （产品价值）\n更专业的量化、品类策略 （销售策略）\n权益中心场的引导 （用户价值感知）\n交易-->资产  生产到销售端信息的打通  （运营效率）"}
+	],
+	"edges":[
+		{"id":"e97e8dfaac82caf1","fromNode":"662ea88ef978f41e","fromSide":"bottom","toNode":"0d597fb2704112d4","toSide":"top"},
+		{"id":"5215b2ad4bfe7df4","fromNode":"0d597fb2704112d4","fromSide":"bottom","toNode":"6a04e5988d476264","toSide":"top"},
+		{"id":"75773012037f5fd0","fromNode":"6a04e5988d476264","fromSide":"left","toNode":"0ed791d73e345224","toSide":"bottom"},
+		{"id":"52b795b65105b4f5","fromNode":"0ed791d73e345224","fromSide":"top","toNode":"c1dc5c1a7c6b3afb","toSide":"left"},
+		{"id":"a78cf237e3c794ca","fromNode":"662ea88ef978f41e","fromSide":"right","toNode":"0d597fb2704112d4","toSide":"right","toEnd":"none","label":"增量"}
+	]
+}

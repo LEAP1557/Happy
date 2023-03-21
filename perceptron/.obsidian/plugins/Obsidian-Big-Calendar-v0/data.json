@@ -1,0 +1,6 @@
+{
+  "StartDate": "monday",
+  "InsertAfter": "### 近期规划",
+  "ProcessEntriesBelow": "",
+  "DefaultEventComposition": "{TIME} {CONTENT}"
+}

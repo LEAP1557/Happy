@@ -1,0 +1,337 @@
+{
+  "main": {
+    "id": "a36d7a074f8230bb",
+    "type": "split",
+    "children": [
+      {
+        "id": "ceef794dbc256bd9",
+        "type": "split",
+        "children": [
+          {
+            "id": "8c83b4aea7951bb1",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "6265335289de38da",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "02_编程相关/path.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "ea539d459e6b3ede",
+                "type": "leaf",
+                "state": {
+                  "type": "excalidraw",
+                  "state": {
+                    "file": "Excalidraw/Drawing 2023-03-19 20.42.32.excalidraw.md"
+                  }
+                }
+              },
+              {
+                "id": "17ac34c75a028d86",
+                "type": "leaf",
+                "state": {
+                  "type": "graph",
+                  "state": {}
+                }
+              },
+              {
+                "id": "0eacc7e653be9300",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "01_日记/20230319_Sun.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "1f556c7ad63cec6e",
+                "type": "leaf",
+                "state": {
+                  "type": "image",
+                  "state": {
+                    "file": "得到App_2023-03-10_05-29-36 1.png"
+                  }
+                }
+              },
+              {
+                "id": "bd31b821dbb9c34f",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "01_日记/20230319_Sun.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "5ccc1d2fde1ea6f9",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 2
+          },
+          {
+            "id": "e2fadb130bee5666",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "420ce8ab7c1f4cb0",
+                "type": "leaf",
+                "state": {
+                  "type": "mindmap",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "53c8d35a9d464650",
+    "type": "split",
+    "children": [
+      {
+        "id": "98d66c8b6af5045f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "36d90cf40f4adbe5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e66b422dfe659f76",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "a",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "dcde30334c9a009f",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "52386537650b48fb",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 266.5
+  },
+  "right": {
+    "id": "c175106ce24ab382",
+    "type": "split",
+    "children": [
+      {
+        "id": "2ad62707f012fcfe",
+        "type": "tabs",
+        "dimension": 71.50259067357513,
+        "children": [
+          {
+            "id": "c5720f3ba849a4e7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8b39534951de8d34",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6174febeef3da573",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a7f36191c10900af",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "325384cc81907f90",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "672bd6d22d4f8e7b",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "957fdc85aa4a792b",
+            "type": "leaf",
+            "state": {
+              "type": "online.tokuhirom.obsidian-pomodoro-plugin",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "f81509e2e83eef7b",
+        "type": "tabs",
+        "dimension": 28.497409326424872,
+        "children": [
+          {
+            "id": "b2cabfef89b33414",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 294.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-excalidraw-plugin:New Excalidraw drawing": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-to-notion:Share to notion": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-projects:Open projects": false,
+      "big-calendar:Big Calendar": false,
+      "obsidian-statusbar-pomo:Start pomodoro": false,
+      "markdown-importer:Open format converter": false,
+      "obsidian-memos:Memos": false
+    }
+  },
+  "active": "17ac34c75a028d86",
+  "lastOpenFiles": [
+    "Untitled 1.canvas",
+    "01_日记/20230319_Sun.md",
+    "02_编程相关/Untitled.canvas",
+    "Excalidraw/Drawing 2023-03-19 20.42.32.excalidraw.md",
+    "998_新建文件/Exclidraw.md",
+    "01_日记/20230313_Mon.md",
+    "02_编程相关/path.md",
+    "998_新建文件/Mac 快捷键及效率工具.md",
+    "Excalidraw",
+    "998_新建文件/金融量化_project.md",
+    "998_新建文件/Python 基础数据结构.md",
+    "Pasted image 20230313224709.png",
+    "statusbar pomo timer.zip",
+    "得到App_2023-03-10_05-29-36 1.png",
+    "01_日记/20230312_Sun.md",
+    "Pasted image 20230312210321.png",
+    "Pasted image 20230312210304.png",
+    "Pasted image 20230312201825.png",
+    "Pasted image 20230312201716.png",
+    "Pasted image 20230312193218.png",
+    "Pasted image 20230312193104.png",
+    "Pasted image 20230312184112.png",
+    "python 数据ji",
+    "04_心理历史神经科学/心智的本质.md",
+    "得到App_2023-03-10_05-29-36.png",
+    "Untitled.canvas",
+    "02_编程相关/Obsidian 操作.md",
+    "01_日记/20230305_Sun.md",
+    "00_Templates/日记模板.md",
+    "01_日记/20230302_Thu.md",
+    "01_日记/20230329_Wed.md",
+    "01_日记/20230323_Thu.md",
+    "01_日记/20230315_Wed.md",
+    "01_日记/20230308_Wed.md",
+    "01_日记/20230306_Mon.md",
+    "01_日记/20230307_Tue.md",
+    "01_日记/20230222.md",
+    "01_日记/20230226_Sun.md",
+    "02_编程相关/Markdown语法.md",
+    "01_日记/20230227_Mon.md",
+    "Day Planners/Day Planner-20230305.md",
+    "998_新建文件",
+    "06_运动保养瑜伽/头发",
+    "Projects - Demo Project",
+    "Day Planners",
+    "998_新建文件/白条.canvas",
+    "07_写作输出",
+    "0",
+    "05_电影音乐色彩",
+    "Untitled 2.canvas",
+    "Untitled 3.canvas"
+  ]
+}
