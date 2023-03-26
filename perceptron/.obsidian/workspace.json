@@ -37,8 +37,12 @@
                 "id": "17ac34c75a028d86",
                 "type": "leaf",
                 "state": {
-                  "type": "graph",
-                  "state": {}
+                  "type": "markdown",
+                  "state": {
+                    "file": "01_日记/20230326_Sun.md",
+                    "mode": "source",
+                    "source": false
+                  }
                 }
               },
               {
@@ -155,7 +159,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -176,6 +181,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "01_日记/20230326_Sun.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,6 +198,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "01_日记/20230326_Sun.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -213,7 +220,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "01_日记/20230326_Sun.md"
+              }
             }
           },
           {
@@ -239,9 +248,25 @@
               "type": "online.tokuhirom.obsidian-pomodoro-plugin",
               "state": {}
             }
+          },
+          {
+            "id": "a933b4f5f9980cfe",
+            "type": "leaf",
+            "state": {
+              "type": "online.louis01.ava",
+              "state": {}
+            }
+          },
+          {
+            "id": "7c094b7931bcddc0",
+            "type": "leaf",
+            "state": {
+              "type": "QUOTE",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 8
       },
       {
         "id": "f81509e2e83eef7b",
@@ -264,25 +289,26 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-excalidraw-plugin:New Excalidraw drawing": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "obsidian-excalidraw-plugin:New Excalidraw drawing": false,
       "obsidian-to-notion:Share to notion": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-projects:Open projects": false,
       "big-calendar:Big Calendar": false,
       "obsidian-statusbar-pomo:Start pomodoro": false,
-      "markdown-importer:Open format converter": false,
       "obsidian-memos:Memos": false
     }
   },
-  "active": "17ac34c75a028d86",
+  "active": "7c094b7931bcddc0",
   "lastOpenFiles": [
     "Untitled 1.canvas",
+    "01_日记/20230326_Sun.md",
     "01_日记/20230319_Sun.md",
     "02_编程相关/Untitled.canvas",
     "Excalidraw/Drawing 2023-03-19 20.42.32.excalidraw.md",
@@ -322,7 +348,6 @@
     "01_日记/20230226_Sun.md",
     "02_编程相关/Markdown语法.md",
     "01_日记/20230227_Mon.md",
-    "Day Planners/Day Planner-20230305.md",
     "998_新建文件",
     "06_运动保养瑜伽/头发",
     "Projects - Demo Project",
