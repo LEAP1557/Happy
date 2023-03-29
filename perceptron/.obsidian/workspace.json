@@ -10,6 +10,7 @@
           {
             "id": "8c83b4aea7951bb1",
             "type": "tabs",
+            "dimension": 77.01149425287356,
             "children": [
               {
                 "id": "6265335289de38da",
@@ -93,6 +94,7 @@
           {
             "id": "e2fadb130bee5666",
             "type": "tabs",
+            "dimension": 22.98850574712644,
             "children": [
               {
                 "id": "420ce8ab7c1f4cb0",
@@ -159,8 +161,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -305,17 +306,18 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "7c094b7931bcddc0",
+  "active": "36d90cf40f4adbe5",
   "lastOpenFiles": [
+    "obsidian-git.zip",
+    "02_编程相关/Untitled.canvas",
+    "Excalidraw/Drawing 2023-03-19 20.42.32.excalidraw.md",
+    "998_新建文件/Mac 快捷键及效率工具.md",
     "Untitled 1.canvas",
     "01_日记/20230326_Sun.md",
     "01_日记/20230319_Sun.md",
-    "02_编程相关/Untitled.canvas",
-    "Excalidraw/Drawing 2023-03-19 20.42.32.excalidraw.md",
     "998_新建文件/Exclidraw.md",
     "01_日记/20230313_Mon.md",
     "02_编程相关/path.md",
-    "998_新建文件/Mac 快捷键及效率工具.md",
     "Excalidraw",
     "998_新建文件/金融量化_project.md",
     "998_新建文件/Python 基础数据结构.md",
