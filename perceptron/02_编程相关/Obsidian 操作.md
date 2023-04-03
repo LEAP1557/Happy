@@ -43,7 +43,6 @@ sort file.ctime asc
 
 
 ### Advanced Table
-
 https://pwa.sspai.com/post/72426
 
 

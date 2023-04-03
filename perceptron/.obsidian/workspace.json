@@ -4,110 +4,57 @@
     "type": "split",
     "children": [
       {
-        "id": "ceef794dbc256bd9",
-        "type": "split",
+        "id": "8c83b4aea7951bb1",
+        "type": "tabs",
         "children": [
           {
-            "id": "8c83b4aea7951bb1",
-            "type": "tabs",
-            "dimension": 77.01149425287356,
-            "children": [
-              {
-                "id": "6265335289de38da",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "02_编程相关/path.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "ea539d459e6b3ede",
-                "type": "leaf",
-                "state": {
-                  "type": "excalidraw",
-                  "state": {
-                    "file": "Excalidraw/Drawing 2023-03-19 20.42.32.excalidraw.md"
-                  }
-                }
-              },
-              {
-                "id": "17ac34c75a028d86",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "01_日记/20230326_Sun.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "0eacc7e653be9300",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "01_日记/20230319_Sun.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "1f556c7ad63cec6e",
-                "type": "leaf",
-                "state": {
-                  "type": "image",
-                  "state": {
-                    "file": "得到App_2023-03-10_05-29-36 1.png"
-                  }
-                }
-              },
-              {
-                "id": "bd31b821dbb9c34f",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "01_日记/20230319_Sun.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "5ccc1d2fde1ea6f9",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {}
-                }
+            "id": "6265335289de38da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01_日记/20230403_Mon.md",
+                "mode": "source",
+                "source": false
               }
-            ],
-            "currentTab": 2
+            }
           },
           {
-            "id": "e2fadb130bee5666",
-            "type": "tabs",
-            "dimension": 22.98850574712644,
-            "children": [
-              {
-                "id": "420ce8ab7c1f4cb0",
-                "type": "leaf",
-                "state": {
-                  "type": "mindmap",
-                  "state": {}
-                }
+            "id": "ea539d459e6b3ede",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2023-03-19 20.42.32.excalidraw.md"
               }
-            ]
+            }
+          },
+          {
+            "id": "17ac34c75a028d86",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "996_工作筆記/01_项目跟踪/权益数据体系_230402.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b817593b97a3a894",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "998_新建文件/外场风险预警_230402.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "direction": "horizontal"
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -136,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "a",
+                "query": " idm.idm_jdt_cmp_f05_bt_mem_award_draw_i_d",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -161,11 +108,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 266.5
+    "width": 200
   },
   "right": {
     "id": "c175106ce24ab382",
@@ -182,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01_日记/20230326_Sun.md",
+                "file": "998_新建文件/外场风险预警_230402.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01_日记/20230326_Sun.md",
+                "file": "998_新建文件/外场风险预警_230402.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01_日记/20230326_Sun.md"
+                "file": "998_新建文件/外场风险预警_230402.md"
               }
             }
           },
@@ -267,7 +215,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 4
       },
       {
         "id": "f81509e2e83eef7b",
@@ -286,7 +234,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 294.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -306,25 +254,49 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "36d90cf40f4adbe5",
+  "active": "b817593b97a3a894",
   "lastOpenFiles": [
-    "obsidian-git.zip",
-    "02_编程相关/Untitled.canvas",
+    "998_新建文件/总.md",
+    "998_新建文件/外场风险预警_230402.md",
+    "01_日记/20230404_Tue.md",
+    "01_日记/20230327_Mon.md",
+    "01_日记/20230328_Tue.md",
+    "01_日记/20230329_Wed.md",
+    "01_日记/20230330_Thu.md",
+    "01_日记/20230331_Fri.md",
+    "01_日记/20230401_Sat.md",
+    "01_日记/20230403_Mon.md",
+    "01_日记/20230228_Tue.md",
+    "01_日记/20230227_Mon.md",
+    "01_日记/20230226_Sun.md",
+    "996_工作筆記/01_项目跟踪/权益数据体系_230402.md",
+    "996_工作筆記/01_项目跟踪/外场监控_230402.md",
     "Excalidraw/Drawing 2023-03-19 20.42.32.excalidraw.md",
-    "998_新建文件/Mac 快捷键及效率工具.md",
-    "Untitled 1.canvas",
-    "01_日记/20230326_Sun.md",
-    "01_日记/20230319_Sun.md",
-    "998_新建文件/Exclidraw.md",
-    "01_日记/20230313_Mon.md",
+    "2023-W14.md",
+    "01_日记/20230306_Mon.md",
+    "996_工作筆記/01_项目跟踪/2023-02-28.md",
+    "01_日记/20230302_Thu.md",
+    "996_工作筆記/关键链接.md",
     "02_编程相关/path.md",
-    "Excalidraw",
-    "998_新建文件/金融量化_project.md",
-    "998_新建文件/Python 基础数据结构.md",
+    "998_新建文件/Untitled mindmap 4.md",
+    "998_新建文件/Untitled 1.md",
+    "996_工作筆記/01_项目跟踪/外场看板二期230303.md",
+    "01_日记/20230326_Sun.md",
+    "Untitled 2.canvas",
+    "03_经济金融科技商业/CFA相关",
+    "03_经济金融科技商业",
+    "995_收集栏",
+    "07_写作输出",
+    "996_工作筆記/04_需求todo",
+    "996_工作筆記/03_总结",
+    "996_工作筆記/02_专项分析/获客复盘 _output.html",
+    "996_工作筆記/02_专项分析",
+    "996_工作筆記/01_项目跟踪",
+    "996_工作筆記/code整理.pdf",
+    "02_编程相关/Untitled.canvas",
+    "Untitled 1.canvas",
     "Pasted image 20230313224709.png",
-    "statusbar pomo timer.zip",
     "得到App_2023-03-10_05-29-36 1.png",
-    "01_日记/20230312_Sun.md",
     "Pasted image 20230312210321.png",
     "Pasted image 20230312210304.png",
     "Pasted image 20230312201825.png",
@@ -332,33 +304,9 @@
     "Pasted image 20230312193218.png",
     "Pasted image 20230312193104.png",
     "Pasted image 20230312184112.png",
-    "python 数据ji",
-    "04_心理历史神经科学/心智的本质.md",
     "得到App_2023-03-10_05-29-36.png",
     "Untitled.canvas",
-    "02_编程相关/Obsidian 操作.md",
-    "01_日记/20230305_Sun.md",
-    "00_Templates/日记模板.md",
-    "01_日记/20230302_Thu.md",
-    "01_日记/20230329_Wed.md",
-    "01_日记/20230323_Thu.md",
-    "01_日记/20230315_Wed.md",
-    "01_日记/20230308_Wed.md",
-    "01_日记/20230306_Mon.md",
-    "01_日记/20230307_Tue.md",
-    "01_日记/20230222.md",
-    "01_日记/20230226_Sun.md",
-    "02_编程相关/Markdown语法.md",
-    "01_日记/20230227_Mon.md",
-    "998_新建文件",
-    "06_运动保养瑜伽/头发",
-    "Projects - Demo Project",
-    "Day Planners",
     "998_新建文件/白条.canvas",
-    "07_写作输出",
-    "0",
-    "05_电影音乐色彩",
-    "Untitled 2.canvas",
     "Untitled 3.canvas"
   ]
 }

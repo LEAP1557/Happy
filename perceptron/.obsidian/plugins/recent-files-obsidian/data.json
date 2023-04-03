@@ -1,16 +1,116 @@
 {
   "recentFiles": [
     {
-      "basename": "20230326_Sun",
-      "path": "01_日记/20230326_Sun.md"
+      "basename": "外场风险预警_230402",
+      "path": "998_新建文件/外场风险预警_230402.md"
     },
     {
-      "basename": "Untitled",
-      "path": "02_编程相关/Untitled.canvas"
+      "basename": "总",
+      "path": "998_新建文件/总.md"
+    },
+    {
+      "basename": "20230404_Tue",
+      "path": "01_日记/20230404_Tue.md"
+    },
+    {
+      "basename": "20230327_Mon",
+      "path": "01_日记/20230327_Mon.md"
+    },
+    {
+      "basename": "20230328_Tue",
+      "path": "01_日记/20230328_Tue.md"
+    },
+    {
+      "basename": "20230329_Wed",
+      "path": "01_日记/20230329_Wed.md"
+    },
+    {
+      "basename": "20230330_Thu",
+      "path": "01_日记/20230330_Thu.md"
+    },
+    {
+      "basename": "20230331_Fri",
+      "path": "01_日记/20230331_Fri.md"
+    },
+    {
+      "basename": "20230401_Sat",
+      "path": "01_日记/20230401_Sat.md"
+    },
+    {
+      "basename": "20230403_Mon",
+      "path": "01_日记/20230403_Mon.md"
+    },
+    {
+      "basename": "20230228_Tue",
+      "path": "01_日记/20230228_Tue.md"
+    },
+    {
+      "basename": "20230227_Mon",
+      "path": "01_日记/20230227_Mon.md"
+    },
+    {
+      "basename": "20230226_Sun",
+      "path": "01_日记/20230226_Sun.md"
+    },
+    {
+      "basename": "权益数据体系_230402",
+      "path": "996_工作筆記/01_项目跟踪/权益数据体系_230402.md"
+    },
+    {
+      "basename": "外场监控_230402",
+      "path": "996_工作筆記/01_项目跟踪/外场监控_230402.md"
     },
     {
       "basename": "Drawing 2023-03-19 20.42.32.excalidraw",
       "path": "Excalidraw/Drawing 2023-03-19 20.42.32.excalidraw.md"
+    },
+    {
+      "basename": "2023-W14",
+      "path": "2023-W14.md"
+    },
+    {
+      "basename": "20230306_Mon",
+      "path": "01_日记/20230306_Mon.md"
+    },
+    {
+      "basename": "2023-02-28",
+      "path": "996_工作筆記/01_项目跟踪/2023-02-28.md"
+    },
+    {
+      "basename": "20230302_Thu",
+      "path": "01_日记/20230302_Thu.md"
+    },
+    {
+      "basename": "关键链接",
+      "path": "996_工作筆記/关键链接.md"
+    },
+    {
+      "basename": "path",
+      "path": "02_编程相关/path.md"
+    },
+    {
+      "basename": "外场看板二期230303",
+      "path": "996_工作筆記/01_项目跟踪/外场看板二期230303.md"
+    },
+    {
+      "basename": "20230326_Sun",
+      "path": "01_日记/20230326_Sun.md"
+    },
+    {
+      "basename": "2023-W13",
+      "path": "2023-W13.md"
+    },
+    {
+      "basename": "Python 基础数据结构",
+      "path": "02_编程相关/Python 基础数据结构.md"
+    },
+    {
+      "basename": "Untitled 2",
+      "path": "Untitled 2.canvas"
+    },
+    {
+      "basename": "Untitled",
+      "path": "02_编程相关/Untitled.canvas"
     },
     {
       "basename": "Mac 快捷键及效率工具",
@@ -31,10 +131,6 @@
     {
       "basename": "20230313_Mon",
       "path": "01_日记/20230313_Mon.md"
-    },
-    {
-      "basename": "path",
-      "path": "02_编程相关/path.md"
     },
     {
       "basename": "金融量化_project",
@@ -73,24 +169,12 @@
       "path": "00_Templates/日记模板.md"
     },
     {
-      "basename": "20230302_Thu",
-      "path": "01_日记/20230302_Thu.md"
-    },
-    {
       "basename": "20230222",
       "path": "01_日记/20230222.md"
     },
     {
-      "basename": "20230226_Sun",
-      "path": "01_日记/20230226_Sun.md"
-    },
-    {
       "basename": "Markdown语法",
       "path": "02_编程相关/Markdown语法.md"
-    },
-    {
-      "basename": "20230227_Mon",
-      "path": "01_日记/20230227_Mon.md"
     },
     {
       "basename": "Day Planner-20230305",
@@ -115,66 +199,6 @@
     {
       "basename": "发型护发",
       "path": "06_运动保养瑜伽/发型护发.md"
-    },
-    {
-      "basename": "大数投资",
-      "path": "998_新建文件/大数投资.md"
-    },
-    {
-      "basename": "护肤和产品",
-      "path": "06_运动保养瑜伽/护肤和产品.md"
-    },
-    {
-      "basename": "美妆产品和使用",
-      "path": "06_运动保养瑜伽/美妆产品和使用.md"
-    },
-    {
-      "basename": "得到App_2023-02-26_11-56-47",
-      "path": "999_图片/01_attachments/得到App_2023-02-26_11-56-47.png"
-    },
-    {
-      "basename": "Pasted image 20230302044503",
-      "path": "999_图片/00_attachments/Pasted image 20230302044503.png"
-    },
-    {
-      "basename": "Pasted image 20230304145715",
-      "path": "999_图片/00_attachments/Pasted image 20230304145715.png"
-    },
-    {
-      "basename": "得到App_2023-02-26_11-56-51",
-      "path": "999_图片/01_attachments/得到App_2023-02-26_11-56-51.png"
-    },
-    {
-      "basename": "得到App_2023-02-26_11-57-00",
-      "path": "999_图片/01_attachments/得到App_2023-02-26_11-57-00.png"
-    },
-    {
-      "basename": "Untitled",
-      "path": "998_新建文件/Untitled.md"
-    },
-    {
-      "basename": "Git",
-      "path": "02_编程相关/Git.md"
-    },
-    {
-      "basename": "test",
-      "path": "Projects - Demo Project/test.md"
-    },
-    {
-      "basename": "白条",
-      "path": "998_新建文件/白条.canvas"
-    },
-    {
-      "basename": "名词",
-      "path": "02_编程相关/名词.md"
-    },
-    {
-      "basename": "模型评价",
-      "path": "998_新建文件/模型评价.md"
-    },
-    {
-      "basename": "固收",
-      "path": "998_新建文件/固收.md"
     }
   ],
   "omittedPaths": [],

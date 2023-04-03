@@ -1,378 +1,715 @@
-### 0306
-dataframe slice
-group by  count distinct
-临时变量表 
-if 条件 
-最后对比
-plot  LTV
+## 链接
+https://www.imooc.com/wiki/pandasless/pandasselectdata.html
 
+
+
+
+### 0306
+
+
+dataframe slice
+
+group by  count distinct
+
+临时变量表
+
+if 条件
+
+最后对比
+
+plot  LTV
+
+  
+  
 
 #### Series& DataFrame基本属性
 
-DataFrame 对于行列 index， columns  本质都是series化处理，只不过用不同的命名来区分；
+  
 
--   Series 数据结构的常用属性；
-	- index
-		value<u>s</u>
-		index.name  values.name
-		ndim
--   Series 数据结构的常用操作方法；
+DataFrame 对于行列 index， columns  本质都是series化处理，只不过用不同的命名来区分；
+
+  
+
+-   Series 数据结构的常用属性；
+
+    - index
+
+        value<u>s</u>
+
+        index.name  values.name
+
+        ndim
+
+-   Series 数据结构的常用操作方法；
+
 - Dataframe
-	- 属性多列size
 
-#### **查询**
+    - 属性多列size
+
+
+-   Series 转DataFrame；
+df=s.to_frame()
+  
+
+#### 查询
+
 loc() 的查询条件，可以使用label值，也可以使用布尔值，他丰富的传值方式，以及简洁的使用方式，成为 Pandas 数据查询较为常用的方法。
-.iloc（）  --index  imbeded
 
-行，列必须按照此顺序 
+.iloc（）  --index  imbeded
+
+  
+
+行，列必须按照此顺序
+
 单元格`print(data.loc[1,"价格"])
-区间`print(data.loc[0:5,["编程语言","价格"]])`
-条件
- - `print(data.loc[data["价格"]<60])`
- - `print(data.loc[(data["价格"]<=69.9) & (data["推出时间"]=="1972年") ]))`
- 函数  
- - `print(data.loc[data["推出时间"].isin(["1972年","1995年","1983年"])])
 
+区间`print(data.loc[0:5,["编程语言","价格"]])`
+
+条件
+
+ - `print(data.loc[data["价格"]<60])`
+
+ - `print(data.loc[(data["价格"]<=69.9) & (data["推出时间"]=="1972年") ]))`
+
+ 函数  
+
+ - `print(data.loc[data["推出时间"].isin(["1972年","1995年","1983年"])])
+
+  
+  
 
 #### 修改
-<u>rename 函数修改索引值</u>
- `rename(self, mapper=None, index=None, columns=None, axis=None, copy=True, inplace=False, level=None, errors=‘ignore’)
 
-mapper  映射关系（字典或者函数），
-axis  表示修改行索引（axis=0 默认）还是列索引（axis=1）
-index，columns  只针对单独元素修改
 
+rename 函数修改索引值
+`rename(self, mapper=None, index=None, columns=None, axis=None, copy=True, inplace=False, level=None, errors=‘ignore’)
+
+  
+
+mapper  映射关系（字典或者函数），
+
+axis  表示修改行索引（axis=0 默认）还是列索引（axis=1）
+
+index，columns  只针对单独元素修改
+
+  
 
 <u>修改数据</u>
-修改单个数据 t[]、iat[]、loc[]、iloc[]
-修改某类数 replace(to_replace=None,value=None……）
-修改区域  `python  data.iloc[[0,1]]=data_new
-修改列  `python  data.iloc[:,[1]]=new_series
 
+修改单个数据 t[]、iat[]、loc[]、iloc[]
+
+修改某类数 replace(to_replace=None,value=None……）
+
+修改区域  `python  data.iloc[[0,1]]=data_new
+
+修改列  `python  data.iloc[:,[1]]=new_series
+
+  
+  
 
 #### 算术运算
 
+  
+
 - add () 函数根据索引值，对相同索引的数据进行加法运算，注意字符串的加法是拼接操作。
+
 - sub () 函数用于数据集之间对应索引的减法操作，该操作不同于加法操作，字符操作是不存在减法操作的，算术上的减法只用于数值类型的数据运算，包括整形、浮点型等
+
 - mul () 操作是两个数据集对应索引列的数据进行乘法运算，该函数同样只适用于两个数值数据的运算，字符串之间，字符串与数值之间进行乘法运算均会报错。
+
 - div () 函数用于两个数据集对应索引列的数据进行除法运算，该函数同样只适用数值型数据之间的运算，并且除数不能为 0 ，否则会报错。
 
+  
+  
 
 #### 数据拼接联合
-连接 merge()   横向
-合并  concat()  纵向
+
+连接 merge()   横向
+
+合并  concat()  纵向
+
+  
 
 ##### 连接 merge()
+
 ``` python
 
+  
+
 pd.merge(left, right, how='inner', on=None, left_on=None, right_on=None,
-         left_index=False, right_index=False, sort=True,
-         suffixes=('_x', '_y'), copy=True, indicator=False,
-         validate=None)
-```
+
+         left_index=False, right_index=False, sort=True,
+
+         suffixes=('_x', '_y'), copy=True, indicator=False,
+
+         validate=None)
+
 ```
 
 
-```
+
+  
+  
 
 **how** 参数
-该参数有四个值:
--   inner：是默认的匹配方式，根据两个表的交集部分进行匹配连接；
--   left：以左边的数据表为基础，匹配右边的数据表，匹配不到的通过 NaN 进行填充；
--   right：以右边的数据表为基础，匹配左边的数据表，匹配不到的通过 NaN 进行填充；
--   outer：将两个数据表连接汇总成一个表，有匹配的展示结果，没有匹配的填充 NaN。
 
-on 参数该参数用于指定数据集的连接键，默认的是两个数据集中共有的列索引，就像我们上面的 data_01 和 data_02 数据集，他们都有 “编号” 和 “推出时间” 列，因此这两列就是默认的连接键。当然我们也可以用 on 参数指定其中的一列为连接键，如下代码演示：
+该参数有四个值:
+
+-   inner：是默认的匹配方式，根据两个表的交集部分进行匹配连接；
+
+-   left：以左边的数据表为基础，匹配右边的数据表，匹配不到的通过 NaN 进行填充；
+
+-   right：以右边的数据表为基础，匹配左边的数据表，匹配不到的通过 NaN 进行填充；
+
+-   outer：将两个数据表连接汇总成一个表，有匹配的展示结果，没有匹配的填充 NaN。
+
+  
+
+on 参数该参数用于指定数据集的连接键，<u>默认的是两个数据集中共有的列索引</u>，就像我们上面的 data_01 和 data_02 数据集，他们都有 “编号” 和 “推出时间” 列，因此这两列就是默认的连接键。当然我们也可以用 on 参数指定其中的一列为连接键，如下代码演示：
+
+  
 
 **suffixes** 参数
+
 该参数用于指定连接后数据集中重复列索引的后缀，默认的是（‘x’,‘y’）：
 
+  
+  
+  
 
+##### 合并  concat()
 
-##### 合并  concat()
+  可以横拼  可以竖着拼  取决于axis 的设定
 
 ```python
 
-pd.concat(objs, axis='0', join:'outer', ignore_index: 'False', keys='None', levels='None', names='None', verify_integrity: 'False', sort: 'False', copy:'True') 
+  
+
+pd.concat(objs, axis='0', join:'outer', ignore_index: 'False', keys='None', levels='None', names='None', verify_integrity: 'False', sort: 'False', copy:'True')
+
+  df = pd.concat([a_series, another_series], axis=1)
 
 ```
 
+  
+  
 
-**axis** 参数  该参数用于设置数据合并的方向。axis=0 纵向合并 (默认)，axis=1 横向合并
+**axis** 参数  该参数用于设置数据合并的方向。axis=0 纵向合并 (默认)，axis=1 横向合并
+
 **join** 参数该参数设置数据集合并的方式，有两个值：
--   inner：数据集之间的交集，行合并时取列索引值的相同的数据，列合并时取行索引值相同的数据；
--   outer：取数据集之间的并集，没有数据的用 NaN 进行填充，默认是这种合并方式。
- ignore_index 参数该参数可以设置在合并方向上的索引值自动生成，从 0 开始的整数序列。
 
+-   inner：数据集之间的交集，行合并时取列索引值的相同的数据，列合并时取行索引值相同的数据；
+
+-   outer：取数据集之间的并集，没有数据的用 NaN 进行填充，默认是这种合并方式。
+
+ ignore_index 参数该参数可以设置在合并方向上的索引值自动生成，从 0 开始的整数序列。
+
+  
+  
 
 #### 排序
 
-sort_index() 函数  按索引排序
-sort_values() 函数  数值排序
+  
+
+sort_index() 函数  按索引排序
+
+sort_values() 函数  数值排序
+
+  
 
 ##### sort_index() 函数
+
 ```python
+
+  
 
 df.sort_index(axis=0, level=None, ascending=True, inplace=False, kind='quicksort', na_position='last', sort_remaining=True, ignore_index=False, key=None)
 
+  
+  
 
 # 2.按列索引进行降序排列 axis=1,ascending=False
+
 data_res=data.sort_index(axis=1,ascending=False)
 
+  
+
 ascending=True 升序或是 ascending=False 降序排序
+
 排序的索引轴，axis=0 行索引（默认），axis=1 列索引
+
+  
 
 ```
 
-
+  
+  
+  
 
 #### sort_values() 函数
 
+  
+
 - by 指定需要排序的列或者行
+
 - axis 指定需要排序的是列还是行，默认 axis=0 表示行
-- na_position  设置缺失值显示的位置，有 first 和 last 两个值，默认是 last
+
+- na_position  设置缺失值显示的位置，有 first 和 last 两个值，默认是 last
+
+  
 
 ```python
+
+  
 
 pd.sort_values(by, axis=0, ascending=True, inplace=False, kind='quicksort', na_position='last', ignore_index=False, key=None)
 
-
+  
+  
+  
 
 # 2.按 DD 列进行 行数据的 降序 排序
+
 data_res=data.sort_values(by=["DD"],ascending=False,axis=0)
 
-
+  
+  
+  
 
 # 3.na_position='first' 参数 ，按 DD 列进行 行数据的 降序 排序
+
 data_res=data.sort_values(by=["DD"],ascending=False,axis=0,na_position='first')
+
+  
 
 通过设置 na_position='first' 缺失值放在了开始位置。
 
+  
+  
 
 # 4.设置axis=1，以行为判断标准进行列排序
+
 data_res=data.sort_values(by=[3],ascending=False,axis=1)
+
 ```
 
-##### rank()  排名
+  
+
+##### rank()  排名
+
 排名操作是根据数据的大小，判断出该数据在数据集中的名次，默认是从 1 开始一直到数据中有效数据的长度，如果存在重复数据，则会求出这几个数据的平均排名。Pandas 库中针对排名操作提供了方便的操作函数 rank () .
 
-method  用于平级数据，也就是要排名的数据中，他们的大小是一样的，这种平级的数据有四种排名的方式：
+  
 
--   average：在一组相等的排名数据中，为每个数据取他们的平均排名；
--   min：在一组相等的排名数据中，使用最小的排名给每个数据；
--   max：在一组相等的排名数据中，使用最大的排名给每个数据；
--   first：在一组相等的排名数据中，按各个值在原始数据中的出现顺序进行排名。
+method  用于平级数据，也就是要排名的数据中，他们的大小是一样的，这种平级的数据有四种排名的方式：
+
+  
+
+-   average：在一组相等的排名数据中，为每个数据取他们的平均排名；
+
+-   min：在一组相等的排名数据中，使用最小的排名给每个数据；
+
+-   max：在一组相等的排名数据中，使用最大的排名给每个数据；
+
+-   first：在一组相等的排名数据中，按各个值在原始数据中的出现顺序进行排名。
+
 ```python
+
 df.rank(axis=0, method='average', numeric_only=None, na_option='keep', ascending=True, pct=False)
+
 ```
 
+  
+  
 
-####   层次化索引
+####   层次化索引
+
+  
 
 层次化索引是 Pandas 的一个重要功能，是指在一个轴上有至少两个级别的索引值，层次化索引的好处是我们**可以方便的使用低纬度索引形式去表示高纬度的数据**，下面我们看一下层次化索引的具体数据表现：
 
+  
+
 ##### 格式
+
 类似于透视表
-	index=`[[ xx],[ xx]]`      两层索引，头一个索引包含重复项
-	column  也可以  操作同理
+
+    index=`[[ xx],[ xx]]`      两层索引，头一个索引包含重复项
+
+    column  也可以  操作同理
+
 ```python
+
 # 2. 构造了一个 DataFrame 数据集
+
 df1=pd.DataFrame([[96,92,83,94],[85,86,77,88],[69,90,91,82],[83,84,85,86],[83,84,85,86],[83,84,85,86]],index=[['2018年','2018年','2018年','2019年','2019年','2019年'],['语文','数学','英语','语文','数学','英语']],columns=[['上学期','上学期','下学期','下学期'],['期中考试','期末考试','期中考试','期末考试']])
+
 print(df1)
+
 # --- 输出结果 ---
-            上学期          下学期     
-          	期中考试 期末考试 期中考试 期末考试
-2018年  语文   96   	92    83     94
-      	数学   85   	86     77     88
-      	英语   69   	90     91     82
-2019年  语文   83      84    85     86
-      	数学   83  	 84    85     86
-      	英语   83  	 84    85     86
+
+            上学期          下学期    
+
+            期中考试 期末考试 期中考试 期末考试
+
+2018年  语文   96      92    83     94
+
+        数学   85     86     77     88
+
+        英语   69     90     91     82
+
+2019年  语文   83      84    85     86
+
+        数学   83      84    85     86
+
+        英语   83      84    85     86
+
 # 结果解析：这里我们构造了一个 DataFrame 数据集，在行索引和列索引我们均设置了层次化的索引，这样能更加有效的表示高纬度的数据。
+
 ```
 
+  
+  
 
 ##### 选取操作
+
 对于 Pandas 库数据集具有多层索引值，我们可以对一级索引通过 loc () 函数获取数据子集：
 
-注意 索引层级  和普通的列名不同
+  
+
+注意 索引层级  和普通的列名不同
+
 ```python
+
 # df1 原数据集，是上面我们自己创建的具有两层列索引和两层行索引的数据集
+
 print(df1.loc['2018年','上学期'])
+
 # --- 输出结果 ---
-    期中考试 期末考试
-语文	 96	    92
-数学	 85	    86
-英语	 69	    90
+
+    期中考试 期末考试
+
+语文   96     92
+
+数学   85     86
+
+英语   69     90
+
 # 结果解析：我们通过 loc() 函数传入行和列的一级索引，可以看到得到了一个 DataFrame 数据子集
 
+  
+
 print(df1.loc[:,'上学期'])
+
 # --- 输出结果 ---
-             期中考试	期末考试
-2018年	语文	  96	 92
-         数学	   85	 86
-         英语	   69	 90
-2019年	语文	  83	84
-         数学	  83	 84
-         英语	  83	 84
+
+             期中考试   期末考试
+
+2018年   语文    96     92
+
+         数学    85    86
+
+         英语    69    90
+
+2019年   语文    83    84
+
+         数学   83     84
+
+         英语   83     84
+
 # 结果解析：这里我们获取了列索引中的上学期的子集，可以看到输出结果中行索引还是两级索引
+
 ```
 
+  
+  
+  
 
+#### 数据重塑
 
-#### 数据重塑  （针对多层索引）
+  
 
 Pandas 对应数据的重塑有三种操作方式，分别为重塑操作 stack () ， unstack () 和轴向旋转操作 pivot ()：
 
-##### stack  和 unstack
+  
 
+##### stack  和 unstack
 
--   stack ()：该操作是将数据的列 “旋转” 为行；  stack 起来变高
--   unstack ()：该操作是将数据的行 “旋转” 为列。unstack 下去变矮
+  
+  
+
+-   stack ()：该操作是将数据的列 “旋转” 为行；  stack 起来变高
+
+-   unstack ()：该操作是将数据的行 “旋转” 为列。unstack 下去变矮
+
 - 二者互为逆操作
+
 ```python
+
 print(df_data.stack().unstack())
+
 # --- 输出结果 ---
-模考  月考1  月考2  月考3  月考4
-科目                    
-语文   96   92   83   94
-数学   85   86   77   88
-英语   69   90   91   82
+
+模考  月考1  月考2  月考3  月考4
+
+科目                    
+
+语文   96   92   83   94
+
+数学   85   86   77   88
+
+英语   69   90   91   82
+
 ```
 
+  
+  
 
 ##### Pivot
+
 该函数用于指定行索引，列索引，以及数据值，生成一个 “pivot” 数据表格。该函数有三个参数：
 
+  
+
 ```python
+
 df_data_pivot=pd.DataFrame([["2018","上学期",83,94],["2018","下学期",77,88],
-                            ["2019","上学期",83,94],["2019","下学期",83,94],
-                            ["2020","上学期",83,94],["2020","下学期",91,82]],
-                 index=['a','b','c','d','e','f'],
-                 columns=['年度','学期','语文','数学'])
+
+                            ["2019","上学期",83,94],["2019","下学期",83,94],
+
+                            ["2020","上学期",83,94],["2020","下学期",91,82]],
+
+                 index=['a','b','c','d','e','f'],
+
+                 columns=['年度','学期','语文','数学'])
+
 print(df_data_pivot)
 
-# --- 输出结果 ---
-     年度   学期  语文  数学
-a  2018  上学期  83  94
-b  2018  下学期  77  88
-c  2019  上学期  83  94
-d  2019  下学期  83  94
-e  2020  上学期  83  94
-f  2020  下学期  91  82
+  
 
+# --- 输出结果 ---
+
+     年度   学期  语文  数学
+
+a  2018  上学期  83  94
+
+b  2018  下学期  77  88
+
+c  2019  上学期  83  94
+
+d  2019  下学期  83  94
+
+e  2020  上学期  83  94
+
+f  2020  下学期  91  82
+
+  
+  
 
 # pivot(index="年度", columns="学期", values="语文")
+
 new_df=df_data_pivot.pivot(index="年度", columns="学期", values="语文")
+
 print(new_df)
+
 # --- 输出结果 ---
-学期    上学期  下学期
-年度            
-2018   83   77
-2019   83   83
-2020   83   91
+
+学期    上学期  下学期
+
+年度            
+
+2018   83   77
+
+2019   83   83
+
+2020   83   91
+
 ```
 
+  
+  
 
 #### 分组聚合操作
 
+  
+
 ##### 分组groupby
+
 Pandas 中的分组操作主要通过函数 groupby () 实现，该函数对数据进行分组，并不会产生运算，分组后会返回一个<u> groupby 对象</u>，该对象并不能展示数据，要通过具体的操作函数才能看到数据结果。
 
+<font color="#d83931"><font color="#c00000"><font color="#c00000"><font color="#ffff00">**实战中多是多层groupby    所以最好把 as_index 变成False**</font></font></font></font>
 
-
-实战中多是多层groupby    所以最好把 as_index 变成False
 groupby () 函数中的一个参数：as_index ，该参数默认为 True，是用来指定是否用分组索引作为聚合结果数据集的行索引，上面的代码中，默认 as_index=True ，因此行索引会有两层，分别为技术方向和推出时间，下面我们通过指定 as_index=False , 默认行索引会从 0 开始生成序列：
+
+  
 
 ##### 聚合
 
+  
 1. **sum()** 函数
+
 该函数用于求各组数值数据的和，非数值数据不进行该聚合操作。
+
 2. **count()** 函数
+
 该函数用于计算分组后各组数据的数量。
+
 3. **mean()** 函数
+
 该函数用于进行各分组数据的平均值的计算，该函数只对数值数据进行聚合。
 
+4. **values_count()** 函数  去重计数
+
 ```python
+
 # 指定 as_index=False
+
 data.groupby(['技术方向','推出时间'],as_index=False).sum()
 
-
+  
+  
+  
 
 data.groupby(['技术方向','推出时间'],as_index=False)['编程语言','年均销售数量','价格'].count()
+
 # --- 输出结果 ---
+
 ```
 
+  
+  
 
 ##### agg
+
 执行多种函数
 
+  fz=fenzu.agg({'微信昵称':pd.Series.nunique,'点击次数':'sum','授权电话':pd.Series.nunique})
+
 ``` python
+
 import numpy as np
+
 import pandas as pd
+
 pop=pd.read_excel('GDPandPopulation.xlsx',sheet_name='Population',index_col=0)
+
 gdp=pd.read_excel('GDPandPopulation.xlsx',sheet_name='GDP',index_col=0)
-df5=pd.concat([pop,gdp],axis=0,keys=['pop','gdp'])  #不用改名字即可合并
+
+df5=pd.concat([pop,gdp],axis=0,keys=['pop','gdp'])  #不用改名字即可合并
+
 df6=pop.join(gdp,lsuffix='_pop', rsuffix='_gdp') #两个dataframe列名相同，需要加lsuffix或rsuffix在左边/右边的列名上加后缀来区分
+
 region=pd.read_excel('GDPandPopulation.xlsx',sheet_name='region',index_col=0)
+
 df7=df6.join(region) #没有重名列可以直接使用
-group_region=df7.groupby(by='区域')  #以'区域'这一列进行分类，值相同的行被并为一类
-print(group_region[['2018年_pop','2018年_gdp']].agg([np.mean,np.max]))  #可以让一列或多列执行一个或多个函数
+
+group_region=df7.groupby(by='区域')  #以'区域'这一列进行分类，值相同的行被并为一类
+
+print(group_region[['2018年_pop','2018年_gdp']].agg([np.mean,np.max]))  #可以让一列或多列执行一个或多个函数
+
+  
 
 ```
 
+  
+  
 
 ##### apply
 
+[Def function  更灵活](https://zhuanlan.zhihu.com/p/101284491)
+  以分组后的`子DataFrame`作为参数传入指定函数的
 
 ##### transform
+
 占比
 
+  
+
 ```python
+
 import numpy as np
+
 import pandas as pd
+
 pop=pd.read_excel('GDPandPopulation.xlsx',sheet_name='Population',index_col=0)
+
 gdp=pd.read_excel('GDPandPopulation.xlsx',sheet_name='GDP',index_col=0)
-df5=pd.concat([pop,gdp],axis=0,keys=['pop','gdp'])  #不用改名字即可合并
+
+df5=pd.concat([pop,gdp],axis=0,keys=['pop','gdp'])  #不用改名字即可合并
+
 df6=pop.join(gdp,lsuffix='_pop', rsuffix='_gdp') #两个dataframe列名相同，需要加lsuffix或rsuffix在左边/右边的列名上加后缀来区分
+
 region=pd.read_excel('GDPandPopulation.xlsx',sheet_name='region',index_col=0)
+
 df7=df6.join(region) #没有重名列可以直接使用
-group_region=df7.groupby(by='区域')  #以'区域'这一列进行分类，值相同的行被并为一类
+
+group_region=df7.groupby(by='区域')  #以'区域'这一列进行分类，值相同的行被并为一类
+
 groupsum=group_region.transform(np.sum)
+
 df7['gdp占区域比例']=df7['2018年_gdp']/ groupsum['2018年_gdp']
+
 print(df7)
 
+  
+  
 
 ```
 
+  
+  
 
 #### pivot_table function
+
 [知乎示例](https://zhuanlan.zhihu.com/p/552332233)
 
--   data:数据集
--   values:要聚合的列，默认情况下对所有数值型变量聚合
--   index:要在数据透视表上分组的变量，可设置多个列，实现多层分组
--   columns:要在数据透视表上分组的变量，注意其每个取值作为1列，实现“长表”转化为“宽表”
--   aggfunc: 对values进行计算，默认为np.mean
--   fill_value:要用来替换缺失值的值（在聚合后生成的数据透视表中）。
--   sort: 布尔型，默认True. 是否将结果排序
+  
+
+-   data:数据集
+
+-   values:要聚合的列，默认情况下对所有数值型变量聚合
+
+-   index:要在数据透视表上分组的变量，可设置多个列，实现多层分组
+
+-   columns:要在数据透视表上分组的变量，注意其每个取值作为1列，实现“长表”转化为“宽表”
+
+-   aggfunc: 对values进行计算，默认为np.mean
+
+-   fill_value:要用来替换缺失值的值（在聚合后生成的数据透视表中）。
+
+-   sort: 布尔型，默认True. 是否将结果排序
+
+  
 
 前5个参数最常用，index相当于数据透视表的“行”或理解为数据透视表的key,可以有多个key；values相当于数据透视表的“列”；columns相当于把列再进一步细分，也是实现“长表”转“宽表”的关键；aggfunc是对聚合在i行j列的n个数据进行运算。多层嵌套：多个index组合可实现“行”的多层分类；values+columns组合可实现“列”的多层分类。
 
+  
+  
 
-> 官网说明：[pandas.pivot_table — pandas 1.4.3 documentation (pydata.org)](https://link.zhihu.com/?target=https%3A//pandas.pydata.org/pandas-docs/stable/reference/api/pandas.pivot_table.html)  
+> 官网说明：[pandas.pivot_table — pandas 1.4.3 documentation (pydata.org)](https://link.zhihu.com/?target=https%3A//pandas.pydata.org/pandas-docs/stable/reference/api/pandas.pivot_table.html)  
+
 > 学习资料：莫烦Python:[https://mofanpy.com](https://link.zhihu.com/?target=https%3A//mofanpy.com) ( Numpy&Pandas视频课)
 
-
-
+  
+  
+  
+  
 
 行动路径思路；--> 相应code
+
 日数据
+
 time 模块时间序列
+
 整理日指标
 
 
+行动路径思路；--> 相应code
 
+
+日数据
+time 模块时间序列
+整理日指标
 
 
 
@@ -425,18 +762,7 @@ def  语句学习
 
 
 
-收入
-息费
-通道收入
-B端收入（忘记是否有前置code了）
-资金成本（ 交易折算 ）
-通道成本  （交易折算）
-首单费用
-期间费用
-参数：分期占比、付费分期占比、付费分期人数  、 拆交易月份
 
-
-风险成本（同样分区满足）--单独出
 
 
 
@@ -761,5 +1087,27 @@ Pandas | 一文看懂透视表pivot_table - rain的文章 - 知乎 https://zhuan
 
 
 #### 字典
+
+
+
+
+## KS 模型评价
+
+风险定价 
+-  abs
+-  资方
+
+数据：
+问题：xxx +   金融逻辑
+基建  技术  管理        
+
+金融逻辑：
+风险定价逻辑= 成本定价 
+两条红线  --（盈亏平衡， 营销增益） 
+
+营销：
+白条营销：目前机制会造成反应过慢，无法把握用户的营销敏感度；
+                    marketing 营销人群策略
+信用卡： 稳定转化率   ；         
 
 
