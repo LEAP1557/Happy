@@ -52,9 +52,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e92e3a4d7497b2b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "998_新建文件/基金.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -108,8 +120,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -130,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "998_新建文件/外场风险预警_230402.md",
+                "file": "998_新建文件/基金.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "998_新建文件/外场风险预警_230402.md",
+                "file": "998_新建文件/基金.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "998_新建文件/外场风险预警_230402.md"
+                "file": "998_新建文件/基金.md"
               }
             }
           },
@@ -254,10 +265,11 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "b817593b97a3a894",
+  "active": "e92e3a4d7497b2b0",
   "lastOpenFiles": [
-    "998_新建文件/总.md",
     "998_新建文件/外场风险预警_230402.md",
+    "998_新建文件/基金.md",
+    "998_新建文件/总.md",
     "01_日记/20230404_Tue.md",
     "01_日记/20230327_Mon.md",
     "01_日记/20230328_Tue.md",
@@ -281,7 +293,6 @@
     "998_新建文件/Untitled mindmap 4.md",
     "998_新建文件/Untitled 1.md",
     "996_工作筆記/01_项目跟踪/外场看板二期230303.md",
-    "01_日记/20230326_Sun.md",
     "Untitled 2.canvas",
     "03_经济金融科技商业/CFA相关",
     "03_经济金融科技商业",
