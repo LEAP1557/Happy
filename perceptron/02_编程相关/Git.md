@@ -217,6 +217,9 @@ $ git branch
 
 **解决办法**：`git pull --rebase origin master` （该命令的意思是把远程库中的更新合并到（pull=fetch+merge）本地库中，--`rebase`的作用是取消掉本地库中刚刚的`commit`，并把他们接到更新后的版本库之中）
 
+git fetch --all
+git pull --force origin main:main
+
 
 ##### 本地强行覆盖远程
 [Mannual](https://blog.csdn.net/DovSnier/article/details/107156612)

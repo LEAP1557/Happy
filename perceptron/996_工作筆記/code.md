@@ -1,4 +1,22 @@
 
+# 10K回流
+
+
+应用系统：10K 
+
+```sql
+select
+        jdpin
+    from
+        dmx_bc.dmxbc_aggr_usr_crowd_back_i_d
+    where
+        crowd_id='8db2d0ee-1182-4e38-8b1c-b65080594eef' and dt='2022-08-15'
+    group by 1
+
+```
+
+**回流：（标签-群体） +（sql-群体）  人群pin也可以回流**
+
 
 
 # 支付

@@ -4,33 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "8c83b4aea7951bb1",
+        "id": "24f1ca34aa592aed",
         "type": "tabs",
         "children": [
           {
-            "id": "6265335289de38da",
+            "id": "10f4071fe64aa1b6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_日记/20230403_Mon.md",
+                "file": "998_新建文件/外单.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ea539d459e6b3ede",
+            "id": "cbc795373543e662",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2023-03-19 20.42.32.excalidraw.md"
+                "file": "02_编程相关/SQL.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
           {
-            "id": "17ac34c75a028d86",
+            "id": "dc088af37e351e4a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -42,31 +44,19 @@
             }
           },
           {
-            "id": "b817593b97a3a894",
+            "id": "923e15f39e2a989f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "998_新建文件/外场风险预警_230402.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e92e3a4d7497b2b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "998_新建文件/基金.md",
+                "file": "2023-W17.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -95,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": " idm.idm_jdt_cmp_f05_bt_mem_award_draw_i_d",
+                "query": "SQL",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -120,7 +110,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -141,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "998_新建文件/基金.md",
+                "file": "2023-W17.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "998_新建文件/基金.md",
+                "file": "2023-W17.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "998_新建文件/基金.md"
+                "file": "2023-W17.md"
               }
             }
           },
@@ -245,7 +236,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 265
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -265,45 +256,46 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "e92e3a4d7497b2b0",
+  "active": "923e15f39e2a989f",
   "lastOpenFiles": [
-    "998_新建文件/外场风险预警_230402.md",
-    "998_新建文件/基金.md",
-    "998_新建文件/总.md",
-    "01_日记/20230404_Tue.md",
-    "01_日记/20230327_Mon.md",
-    "01_日记/20230328_Tue.md",
-    "01_日记/20230329_Wed.md",
-    "01_日记/20230330_Thu.md",
-    "01_日记/20230331_Fri.md",
-    "01_日记/20230401_Sat.md",
-    "01_日记/20230403_Mon.md",
-    "01_日记/20230228_Tue.md",
-    "01_日记/20230227_Mon.md",
-    "01_日记/20230226_Sun.md",
-    "996_工作筆記/01_项目跟踪/权益数据体系_230402.md",
-    "996_工作筆記/01_项目跟踪/外场监控_230402.md",
-    "Excalidraw/Drawing 2023-03-19 20.42.32.excalidraw.md",
-    "2023-W14.md",
-    "01_日记/20230306_Mon.md",
-    "996_工作筆記/01_项目跟踪/2023-02-28.md",
-    "01_日记/20230302_Thu.md",
-    "996_工作筆記/关键链接.md",
-    "02_编程相关/path.md",
-    "998_新建文件/Untitled mindmap 4.md",
+    "998_新建文件/外单.md",
+    "2023-W17.md",
+    "996_工作筆記/code.md",
+    "Untitled 3.canvas",
+    "02_编程相关/SQL.md",
+    "01_日记/20230424_Mon.md",
+    "01_日记/20230425_Tue.md",
+    "998_新建文件/生活权益用户画像_c2-23q2w14-091.md",
+    "996_工作筆記/code整理.pdf",
     "998_新建文件/Untitled 1.md",
-    "996_工作筆記/01_项目跟踪/外场看板二期230303.md",
+    "01_日记/20230417_Mon.md",
+    "01_日记/20230421_Fri.md",
+    "01_日记/20230414_Fri.md",
+    "01_日记/20230420_Thu.md",
+    "01_日记/20230413_Thu.md",
+    "996_工作筆記/01_项目跟踪/红包码看板_b6-23q1w11-076.md",
+    "00_Templates/日记模板.md",
+    "998_新建文件/正则表达式.md",
+    "01_日记/20230412_Wed.md",
+    "01_日记/20230411_Tue.md",
+    "996_工作筆記/01_项目跟踪/权益数据体系_230402.md",
+    "998_新建文件/策略.md",
+    "01_日记/20230322_Wed.md",
+    "998_新建文件/特征工程.md",
+    "01_日记/20230330_Thu.md",
+    "996_工作筆記/02_专项分析/获客复盘 _output.md",
+    "996_工作筆記/02_专项分析/获客复盘.md",
+    "01_日记/20230403_Mon.md",
+    "Untitled",
     "Untitled 2.canvas",
     "03_经济金融科技商业/CFA相关",
     "03_经济金融科技商业",
     "995_收集栏",
     "07_写作输出",
     "996_工作筆記/04_需求todo",
-    "996_工作筆記/03_总结",
+    "996_工作筆記/03_杂记",
     "996_工作筆記/02_专项分析/获客复盘 _output.html",
     "996_工作筆記/02_专项分析",
-    "996_工作筆記/01_项目跟踪",
-    "996_工作筆記/code整理.pdf",
     "02_编程相关/Untitled.canvas",
     "Untitled 1.canvas",
     "Pasted image 20230313224709.png",
@@ -317,7 +309,6 @@
     "Pasted image 20230312184112.png",
     "得到App_2023-03-10_05-29-36.png",
     "Untitled.canvas",
-    "998_新建文件/白条.canvas",
-    "Untitled 3.canvas"
+    "998_新建文件/白条.canvas"
   ]
 }
