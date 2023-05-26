@@ -129,6 +129,37 @@ https://cf.jd.com/pages/viewpage.action?pageId=287925237
 
 经验： 一般直接在sql里写1个“\”,在数据查询/开发平台IDE里的sql写2个,在调度环境写 4个， 快速调试一下吧
 
+### sql 正则
+https://blog.csdn.net/JohnnyChu/article/details/111184962
+
+ Hive正则匹配函数
+（1）regexp_extract
+语法: regexp_extract(string subject, string pattern, int index)
+返回值: string
+说明： 将字符串subject按照pattern正则表达式的规则拆分，返回index指定的字符。
+第一参数： 要处理的字段
+第二参数: 需要匹配的正则表达式
+第三个参数:
+0是显示与之匹配的整个字符串
+1 是显示第一个括号里面的
+2 是显示第二个括号里面的字段…
+
+```sql
+select
+regexp_extract('x=a3&x=18abc&x=2&y=3&x=4','x=([0-9]+)([a-z]+)',0),  -- x=18abc
+regexp_extract('x=a3&x=18abc&x=2&y=3&x=4','^x=([a-z]+)([0-9]+)',0)  -- x=a3
+```
+
+
+
+（2）regexp_replace
+例子：
+
+```sql
+regexp_replace(mobile,’[^0-9]’,’’)
+```
+原文链接：https://blog.csdn.net/qq_42231574/article/details/85253440
+
 
 ### 排序
 
